@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+@media (max-width:355px){
+    section.about .container-about h1,section.about .ceo .container-ceo h1,.service .container-service h1,section.partners h1{
+        font-size: 40px;
+    }
+    section.about .container-about .text p, section.about .ceo .container-ceo .text p{
+        font-size: 25px;
+    }
+    .service .container-service .miniCards h2{
+        font-size: 20px;
+    }
+    section.contact .container-contact .flex .contato p{
+        font-size: 13px;
+    }
+}
+@media (max-width:720px){
+    header .container-hamburguer{
+        display: block;
+        position: relative;
+       z-index: 2;
+    }
+    .hamburguer.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburguer.active .bar:nth-child(1){
+       transform: translateY(8px) rotate(45deg);
+       border-radius: 5px;
+    }
+    .hamburguer.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+        border-radius: 5px;
+     }
+     .nav-menu{
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: #fff;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
+        width: 15rem;
+        z-index: 1;
+        transition: .6s;
+        overflow: hidden;
+        transform: translateX(-100%);
+    }
+    .nav-menu li{
+        font-size: 20px;
+    }
+    .nav-menu li:not(:nth-child(1)){
+        margin-top: 3rem;
+    }
+    .nav-menu.active{
+        transform: translateX(0%);
+        padding: 0 2rem;
+        box-shadow: 1px 5px 15px 1px #000000;
+    }
+    section.partners{
+        min-height: 100vh;
+    }
+    section.home .container-home .left .main-title h3{
+        font-size: 8vw;
+    }
+    section.home .container-home .left h1{
+        font-size: 10vw;
+        line-height: normal;
+    }
+    section.home .container-home .left .main-title img{
+        position: absolute;
+        bottom: 10px;
+        right: 15px;
+        width: 80px;
+    }
+    section.contact .container-projetos {
+        clip-path: polygon(0 0, 100% 2%, 100% 100%, 0 100%);
+    }
+    section.contact{
+        clip-path: polygon(0 0, 100% 2%, 100% 100%, 0 100%);
+    }
+  }
+  @media (max-width:1079px){
+    section.about .ceo .container-ceo main{
+        flex-direction: column;
+    }
+    section.about .ceo .container-ceo main .img{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 3rem;
+        filter: drop-shadow(1px 1px 10px rgb(50, 50, 50));
+    }
+    section.about .ceo .container-ceo main .img img{
+        width: 70%;
+    }
+    section.about .ceo .container-ceo .text p{
+        text-align: start;
+    }
+    section.about .container-about .text p{
+        text-align: start;
+    }
+  }

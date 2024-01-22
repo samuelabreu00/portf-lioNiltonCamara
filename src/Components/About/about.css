@@ -1,0 +1,118 @@
+section.about{
+    background-color:#f58300;
+    padding-top: 4rem ;
+    border-top: 2px solid black;
+    position: relative;
+}
+section.about .imgAbsolut{
+    width: 80px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    animation: rotate 1s alternate infinite;
+}
+@keyframes rotate {
+    0%{
+        rotate: 0deg;
+    }
+    100%{
+        rotate: -30deg;
+    }
+}
+section.about .container-about{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1350px;
+    margin: 0 auto;
+    box-sizing: content-box;
+    padding: 0 24px;
+}
+section.about .container-about h1{
+    font-size: 59px;
+    color: #282828;
+    margin: 3rem 0;
+    position: relative;
+    text-align: center;
+}
+section.about .container-about h1::after{
+    content: '';
+    width: 100%;
+    height: 5px;
+    background-color: #00000036;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 40px;
+}
+section.about .container-about .text{
+    display: flex;
+    justify-content: center;
+  
+}
+section.about .container-about .text p{
+    font-size: 31px;
+    width: 80%;
+    margin-bottom: 3rem;
+    color: #e5e5e5;
+    text-align: justify;
+
+}
+
+section.about .ceo{
+    background-color: #fff;
+    padding: 4rem 0;
+   height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section.about .ceo .container-ceo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1350px;
+    margin: 0 auto;
+    box-sizing: content-box;
+    padding: 0 24px;
+}
+section.about .ceo .container-ceo h1{
+    font-size: 59px;
+    color: #282828;
+    margin-bottom: 3rem;
+    position: relative;
+}
+section.about .ceo .container-ceo h1::after{
+    content: '';
+    width: 100%;
+    height: 5px;
+    background-color: #00000036;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 40px;
+}
+section.about .ceo .container-ceo main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section.about .ceo .container-ceo main .img img{
+    width: 75%;
+    border-radius: 12px;
+}
+section.about .ceo .container-ceo .text{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+section.about .ceo .container-ceo .text p{
+    font-size: 31px;
+    margin-bottom: 3rem;
+    text-align: justify;
+}
+section.about .ceo .container-ceo .text p span{
+    font-weight: bold;
+}

@@ -1,0 +1,33 @@
+.back-to-top
+{opacity: 0; 
+transition: .4s;
+pointer-events: none;
+}
+
+.back-to-top-content{
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    height: 40px;
+    width: 40px;
+    background-color:   #f58300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5rem;
+}
+.back-to-top-content a{
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.7rem;
+    display: flex;
+    justify-content: center;
+}
+.back-to-top.ativado{
+ opacity: .5;
+ transition: .3s;
+ pointer-events: all;
+}
+.back-to-top.ativado:hover{
+    opacity: 1;
+}
