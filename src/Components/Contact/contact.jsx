@@ -14,7 +14,7 @@ export const Contact = () =>{
                     <div className="copy">
                     <p>&copy; 2024 NC Consultoria e Assessoria. Todos os direitos reservados.</p>
                     <p>Fortaleza - CE</p>
-                    <p>Desenvolvido por <a href="">@dev_santos</a></p>
+                    <p>Desenvolvido por <a href="https://www.instagram.com/dev_santos25/" target="_blank">@dev_santos</a></p>
                     </div>
                     <div className="contato">
                         <p>niltoncamaraconsultoria@gmail.com</p>
