@@ -11,7 +11,7 @@ html{
 }
 @media (max-width:355px){
     section.about .container-about h1,section.about .ceo .container-ceo h1,.service .container-service h1,section.partners h1{
-        font-size: 40px;
+        font-size: 32px;
     }
     section.about .container-about .text p, section.about .ceo .container-ceo .text p{
         font-size: 25px;
