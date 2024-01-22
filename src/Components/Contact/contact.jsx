@@ -19,7 +19,7 @@ export const Contact = () =>{
                     <div className="contato">
                         <p>niltoncamaraconsultoria@gmail.com</p>
                         <div className="links">
-                            <a href="https://api.whatsapp.com/send?phone=85999694059" target='_blank'><FaWhatsapp/></a>
+                            <a href="https://api.whatsapp.com/send?phone=5585999694059" target='_blank'><FaWhatsapp/></a>
                             <a href="https://www.instagram.com/niltoncamara/" target='_blank'><FaInstagram/></a>
                             <a href="https://www.youtube.com/@NiltonLibras" target='_blank'><FaYoutube/></a>
                         </div>
