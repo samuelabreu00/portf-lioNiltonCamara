@@ -43,3 +43,6 @@ section.partners .container-partners .container-imgs{
 section.partners .container-partners .container-imgs img{
     width: 140px;
 }
+section.partners .container-partners .container-imgs img:nth-child(6){
+    border-radius: 20px;
+}
