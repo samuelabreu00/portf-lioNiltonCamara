@@ -1,8 +1,10 @@
 import './home.css'
 import imgMaos from '../assets/imgMoas.png'
-// import Typical from 'react-typical'
+
 export const Home = () =>{
 
+
+    
     return(
         <>
         <section className="home" id='home'>
@@ -14,19 +16,8 @@ export const Home = () =>{
                         <img src={imgMaos} alt="" />
                     </div>
                     
-                    <h1>Excelência que faz a diferença! </h1>
-                    <p>
-                    {/* <Typical
-                    loop={Infinity} 
-                    steps={
-                        [
-                            'é um prazer ter você aqui ',
-                            5000,
-                        ]
-                    }
-                  
-                    /> */}
-                    </p>
+                    <h1>Excelência que faz a diferença!</h1>
+                    <p>é um prazer ter você aqui</p>
                 </div>
             </div>
         </section>
