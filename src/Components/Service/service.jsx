@@ -10,25 +10,25 @@ export const Service = () =>{
             <div className="container-service">
                 <h1>Serviços</h1>
                 <div className="miniCards">
-                    <h2>Interpretação  </h2>
-                    <h2>Tradução </h2>
-                    <h2>Audiovisual </h2>
-                    <h2>Audiodescrição </h2>
-                    <h2>Legendagem </h2>
-                    <h2>Clipes </h2>
-                    <h2>Cursos de Libras </h2>
-                    <h2>Palestras </h2>
-                    <h2>Oficinas </h2>
-                    <h2>Revisão de textos </h2>
-                    <h2>Organização e adaptação de eventos </h2>
-                    <h2>Espetáculos </h2>
-                    {/* <h2>Autismo </h2> */}
-                    {/* <h2>Inclusão </h2> */}
-                    <h2>Infantil </h2>
-                    {/* <h2>Acessibilidade </h2> */}
-                    <h2>Consultoria </h2>
-                    <h2>Assessoria </h2>
-                    <h2>ESG </h2>
+                    <h2 data-aos="fade-up">Interpretação  </h2>
+                    <h2 data-aos="fade-up">Tradução </h2>
+                    <h2 data-aos="fade-up">Audiovisual </h2>
+                    <h2 data-aos="fade-up">Audiodescrição </h2>
+                    <h2 data-aos="fade-up">Legendagem </h2>
+                    <h2 data-aos="fade-up">Clipes </h2>
+                    <h2 data-aos="fade-up">Cursos de Libras </h2>
+                    <h2 data-aos="fade-up">Palestras </h2>
+                    <h2 data-aos="fade-up">Oficinas </h2>
+                    <h2 data-aos="fade-up">Revisão de textos </h2>
+                    <h2 data-aos="fade-up">Organização e adaptação de eventos </h2>
+                    <h2 data-aos="fade-up">Espetáculos </h2>
+                    {/* <h2 data-aos="fade-up">Autismo </h2> */}
+                    {/* <h2 data-aos="fade-up">Inclusão </h2> */}
+                    <h2 data-aos="fade-up">Infantil </h2>
+                    {/* <h2 data-aos="fade-up">Acessibilidade </h2> */}
+                    <h2 data-aos="fade-up">Consultoria </h2>
+                    <h2 data-aos="fade-up">Assessoria </h2>
+                    <h2 data-aos="fade-up">ESG </h2>
                 </div>
             </div>
             <div className="imgs-absolut">
