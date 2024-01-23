@@ -11,7 +11,7 @@ export const Header = () =>{
       const handleScroll = () => {
         const sections = document.querySelectorAll('section');
         let current = '';
-        const limiteScroll = 80;
+        const limiteScroll = 30;
   
         sections.forEach(section => {
             const sectionTop = section.offsetTop;
