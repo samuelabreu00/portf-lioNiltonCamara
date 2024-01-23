@@ -63,7 +63,7 @@ section.about .container-about .text p{
 section.about .ceo{
     background-color: #fff;
     padding: 4rem 0;
-   height: auto;
+   min-heigth: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
