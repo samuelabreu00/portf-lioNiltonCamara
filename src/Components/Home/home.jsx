@@ -1,6 +1,6 @@
 import './home.css'
 import imgMaos from '../assets/imgMoas.png'
-
+import Typical from 'react-typical'
 export const Home = () =>{
 
 
@@ -17,7 +17,18 @@ export const Home = () =>{
                     </div>
                     
                     <h1>Excelência que faz a diferença!</h1>
-                    <p>é um prazer tê-lo(a) aqui</p>
+                    <p>
+                    <Typical
+                    loop={Infinity} 
+                    steps={
+                        [
+                            'é um prazer ter você aqui ',
+                            5000,
+                        ]
+                    }
+                  
+                    />
+                    </p>
                 </div>
             </div>
         </section>
