@@ -113,5 +113,6 @@ html{
     }
     section.about .container-about .text p{
         text-align: start;
+          width: 100%;
     }
   }
