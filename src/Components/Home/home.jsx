@@ -1,6 +1,6 @@
 import './home.css'
 import imgMaos from '../assets/imgMoas.png'
-import Typical from 'react-typical'
+// import Typical from 'react-typical'
 export const Home = () =>{
 
     return(
@@ -16,7 +16,7 @@ export const Home = () =>{
                     
                     <h1>Excelência que faz a diferença! </h1>
                     <p>
-                    <Typical
+                    {/* <Typical
                     loop={Infinity} 
                     steps={
                         [
@@ -25,7 +25,7 @@ export const Home = () =>{
                         ]
                     }
                   
-                    />
+                    /> */}
                     </p>
                 </div>
             </div>
