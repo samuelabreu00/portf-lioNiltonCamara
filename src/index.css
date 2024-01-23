@@ -13,11 +13,12 @@ html{
     section.about .container-about h1,section.about .ceo .container-ceo h1,.service .container-service h1,section.partners h1{
         font-size: 33px;}
     }
+  section.about .container-about .text p, section.about .ceo .container-ceo .text p{
+        font-size: 22px;
+    }
 @media (max-width:355px){
     
-    section.about .container-about .text p, section.about .ceo .container-ceo .text p{
-        font-size: 25px;
-    }
+  
     .service .container-service .miniCards h2{
         font-size: 20px;
     }
