@@ -5,6 +5,7 @@ import { Service } from "./Components/Service/service"
 import {Partners} from "./Components/Partners/parceiros"
 import { Contact } from "./Components/Contact/contact"
 import BackToTop from "./Components/BackToTop/BackToTop"
+import './index.css'
 
 function App() {
 
