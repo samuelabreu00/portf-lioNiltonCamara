@@ -8,7 +8,7 @@ export const Service = () =>{
         <>
         <section className="service" id="service">
             <div className="container-service">
-                <h1>Serviços</h1>
+                <h1 data-aos="fade-up">Serviços</h1>
                 <div className="miniCards">
                     <h2 data-aos="fade-up">Interpretação  </h2>
                     <h2 data-aos="fade-up">Tradução </h2>
