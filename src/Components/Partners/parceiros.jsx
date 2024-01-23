@@ -14,16 +14,16 @@ export const Partners = () =>{
         <>
         <section className="partners" id='partners'>
             <div className="container-partners">
-            <h1>Parceiros</h1>
+            <h1 data-aos="fade-up">Parceiros</h1>
                 <div className="container-imgs">
-                <img src={imgMarquise} alt="" />
-                    <img src={imgMarquiseAmbiental} alt="" />
-                    <img src={imgEcoTabate} alt="" />
-                    <img src={imgEcoFor} alt="" />
-                    <img src={imgHouseCultura} alt="" />
-                    <img src={imgArtePraia} alt="" />
-                    <img src={imgAmarCultural} alt="" />  
-                    <img src={imgPintando7} alt="" /> 
+                    <img src={imgMarquise} alt="" data-aos="fade-up" />
+                    <img src={imgMarquiseAmbiental} alt="" data-aos="fade-up"/>
+                    <img src={imgEcoTabate} alt=""data-aos="fade-up"/>
+                    <img src={imgEcoFor} alt="" data-aos="fade-up"/>
+                    <img src={imgHouseCultura} alt=""data-aos="fade-up" />
+                    <img src={imgArtePraia} alt="" data-aos="fade-up"/>
+                    <img src={imgAmarCultural} alt="" data-aos="fade-up"/>  
+                    <img src={imgPintando7} alt="" data-aos="fade-up" /> 
                 </div>
         </div>
         </section>
