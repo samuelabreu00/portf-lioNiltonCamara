@@ -17,7 +17,7 @@ export const Header = () =>{
             const sectionTop = section.offsetTop;
             const sectionHeight = section.clientHeight;
             
-            const marginOfError = 20; // Experimente diferentes valores
+            const marginOfError = 15; // Experimente diferentes valores
             if (window.scrollY >= sectionTop - marginOfError && window.scrollY < sectionTop + sectionHeight - marginOfError) {
               current = section.getAttribute('id');
           }
