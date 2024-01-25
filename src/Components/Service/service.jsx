@@ -18,6 +18,8 @@ export const Service = () =>{
                     <h2 data-aos="fade-up">Clipes </h2>
                     <h2 data-aos="fade-up">Cursos de Libras </h2>
                     <h2 data-aos="fade-up">Palestras </h2>
+                    <h2 data-aos="fade-up">Formação de Professores </h2>
+                    <h2 data-aos="fade-up">Língua Portuguesa </h2>
                     <h2 data-aos="fade-up">Oficinas </h2>
                     <h2 data-aos="fade-up">Revisão de textos </h2>
                     <h2 data-aos="fade-up">Organização e adaptação de eventos </h2>
