@@ -75,6 +75,10 @@ html{
     section.partners{
         min-height: 100vh;
     }
+    section.home .container-home .left{
+        width: 100%;
+
+    }
     section.home .container-home .left .main-title h3{
         font-size: 8vw;
     }
