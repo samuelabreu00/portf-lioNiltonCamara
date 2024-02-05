@@ -4,7 +4,6 @@ import imgEcoTabate from '../assets/EcoTaubaté.png'
 import imgMarquise from '../assets/Grupo Marquise.png'
 import imgArtePraia from '../assets/Festival ArtePraia.jpg'
 import imgEcoFor from '../assets/EcoFor.png'
-import imgAmarCultural from '../assets/Amar Cultural Aratuba.jpg'
 import imgHouseCultura from '../assets/House Cultura.png'
 import imgMarquiseAmbiental from '../assets/Marquise Ambiental.png'
 import imgPintando7 from '../assets/imgPintando7.jpg'
@@ -21,8 +20,7 @@ export const Partners = () =>{
                     <img src={imgEcoTabate} alt=""data-aos="fade-up"/>
                     <img src={imgEcoFor} alt="" data-aos="fade-up"/>
                     <img src={imgHouseCultura} alt=""data-aos="fade-up" />
-                    <img src={imgArtePraia} alt="" data-aos="fade-up"/>
-                    <img src={imgAmarCultural} alt="" data-aos="fade-up"/>  
+                    <img src={imgArtePraia} alt="" data-aos="fade-up"/> 
                     <img src={imgPintando7} alt="" data-aos="fade-up" /> 
                 </div>
         </div>
