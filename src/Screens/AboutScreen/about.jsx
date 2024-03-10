@@ -1,6 +1,6 @@
 import './about.css'
-import imgNilton from '../assets/imgNilton.png'
-import imgLogo from '../assets/imgLogo.jpeg'
+import imgNilton from '../../assets/imgNilton.png'
+import imgLogo from '../../assets/imgLogo.jpeg'
 
 export const About = () =>{
     return(

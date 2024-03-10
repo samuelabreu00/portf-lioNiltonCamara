@@ -1,12 +1,12 @@
 
 import './parceiros.css'
-import imgEcoTabate from '../assets/EcoTaubaté.png'
-import imgMarquise from '../assets/Grupo Marquise.png'
-import imgArtePraia from '../assets/Festival ArtePraia.jpg'
-import imgEcoFor from '../assets/EcoFor.png'
-import imgHouseCultura from '../assets/House Cultura.png'
-import imgMarquiseAmbiental from '../assets/Marquise Ambiental.png'
-import imgPintando7 from '../assets/imgPintando7.jpg'
+import imgEcoTabate from '../../assets/EcoTaubaté.png'
+import imgMarquise from '../../assets/Grupo Marquise.png'
+import imgArtePraia from '../../assets/Festival ArtePraia.jpg'
+import imgEcoFor from '../../assets/EcoFor.png'
+import imgHouseCultura from '../../assets/House Cultura.png'
+import imgMarquiseAmbiental from '../../assets/Marquise Ambiental.png'
+import imgPintando7 from '../../assets/imgPintando7.jpg'
 
 export const Partners = () =>{
     return(

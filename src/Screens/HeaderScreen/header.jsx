@@ -1,5 +1,5 @@
 import './header.css'
-import imgLogo from '../assets/imgLogo.jpeg'
+import imgLogo from '../../assets/imgLogo.jpeg'
 import React, { useRef, useEffect, useState } from 'react';
 
 export const Header = () =>{

@@ -1,5 +1,5 @@
 import './home.css'
-import imgMaos from '../assets/imgMoas.png'
+import imgMaos from '../../assets/imgMoas.png'
 
 export const Home = () =>{
 

@@ -1,9 +1,9 @@
-import { Header } from "./Components/Header/header"
-import { Home } from "./Components/Home/home"
-import { About } from "./Components/About/about"
-import { Service } from "./Components/Service/service"
-import {Partners} from "./Components/Partners/parceiros"
-import { Contact } from "./Components/Contact/contact"
+import { Header } from "./Screens/HeaderScreen/header"
+import { Home } from "./Screens/HomeScreen/home"
+import { About } from "./Screens/AboutScreen/about"
+import { Service } from "./Screens/ServiceScreen/service"
+import {Partners} from "./Screens/PartnersScreen/parceiros"
+import { Contact } from "./Screens/ContactScreen/contact"
 import BackToTop from "./Components/BackToTop/BackToTop"
 import './index.css'
 
