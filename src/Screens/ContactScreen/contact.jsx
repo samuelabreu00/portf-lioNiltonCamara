@@ -30,6 +30,9 @@ export const Contact = () =>{
                 <h1>PROJETOS E CONTEXTOS</h1>
                 <div className="container-links">
                     <div className="left">
+                        
+                                                <a href="https://www.instagram.com/p/C5fA2_7umy-/?igsh=MWdpeTZ3NXZuczE4Ng==" target='_blank'>7° Caminhada da Conscientização do Autismo</a>
+                        
                         <a href="https://www.youtube.com/watch?v=k1tl74fAeD8 " target='_blank'>Marquise Ambiental </a>
 
                         <a href="https://www.youtube.com/watch?v=P1x4d54hKHc " target='_blank'>EcoTaubaté </a>
@@ -97,7 +100,7 @@ export const Contact = () =>{
 
                         <a href="https://www.youtube.com/watch?v=9Cu_J9la2fc&t=9s " target='_blank'> HandTalk – Homenagem ao Dia do Intérprete </a>
                         
-                        <a href="https://www.instagram.com/p/C5fA2_7umy-/?igsh=MWdpeTZ3NXZuczE4Ng==" target='_blank'>7° Caminhada da Conscientização do Autismo</a>
+
                     </div>
                 </div>
             </div>
