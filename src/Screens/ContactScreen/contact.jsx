@@ -96,7 +96,8 @@ export const Contact = () =>{
                         <a href="https://www.youtube.com/watch?v=LtW6JAVMFb0 " target='_blank'>Sinais de DOENÇAS em Libras </a>
 
                         <a href="https://www.youtube.com/watch?v=9Cu_J9la2fc&t=9s " target='_blank'> HandTalk – Homenagem ao Dia do Intérprete </a>
-
+                        
+                        <a href="https://www.instagram.com/p/C5fA2_7umy-/?igsh=MWdpeTZ3NXZuczE4Ng==" target='_blank'>7° Caminhada da Conscientização do Autismo</a>
                     </div>
                 </div>
             </div>
